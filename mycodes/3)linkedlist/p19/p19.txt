@@ -1,0 +1,19 @@
+
+Sort a k sorted doubly linked list
+
+
+struct node {
+    int data;
+    struct node* next;
+    struct node* prev;
+}*head,*temp;
+ 
+ 
+ 
+1) traverse all list and count size of list
+
+2)declare array of count size
+
+3)sort array
+
+4)add all elements to same list

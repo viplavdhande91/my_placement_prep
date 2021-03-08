@@ -1,0 +1,76 @@
+
+https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+
+
+Flattening a Linked List
+
+
+struct node{
+
+int data;
+
+struct node *bottom_pointer;
+
+struct node *nextpointer;
+
+}
+
+
+1)declare arr[n]  ==>n is the max size in problem given
+
+
+2)using n^2 loop traverse all elements.
+
+struct node *nextpointer =
+while(nextpointer !=NULL)
+{
+
+         arr[i] = nextpointer->data;
+         i++;
+         
+
+         bottom_pointer = head->bottom_pointer;
+
+        while(bottom_pointer!= NULL)
+		
+		{
+
+
+         arr[i] = bottompointer->data;
+         i++;
+
+         bottom_pointer = bottom_pointer->next;
+
+
+        }
+
+    head = head->nextpointer;
+ 
+
+   nextpointer = head->nextpointer;
+
+
+}
+
+
+
+4)create new structure(for SLL) and insert all elements into single Linked List.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
