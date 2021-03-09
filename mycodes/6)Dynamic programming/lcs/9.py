@@ -1,18 +1,23 @@
 # Sequence Pattern Matching
+
+
 X = 'AXY'
+
+Y = 'ADXCPY' 
+
 m = len(X)
-Y = 'ADXCPY'
 n = len(Y)
 
-cols = m+1
-rows = n+1
+
+rows = m+1
+cols = n+1
+
+t = [['' for x in range(cols)] for y in range(rows)] 
+
 
 def LCS(X,Y,m,n):
- 
 
-  t = [['' for x in range(cols)] for y in range(rows)] 
-
-#step1)lcs filling all values and making t table by TDp
+#step1)lcs filling all values and by BUP
 
   for p in range(rows):
 
@@ -22,36 +27,60 @@ def LCS(X,Y,m,n):
       if q == 0:
         t[p][q] = 0
 
-
+  
   #filling each cell value
   for i in range(1,rows):
     for j in range(1,cols):
 
-      if  Y[i-1] == X[j-1]: #remember Y[i-1] == X[j-1]
+      if  X[i-1] == Y[j-1]: 
         t[i][j] =  1 + t[i-1][j-1]
-
 
       else:
         t[i][j] =  max(t[i][j-1],t[i-1][j])
 
-  print(t)
-
-# MAIN LOGIC
   
-  if(t[i][j] == len(X)):
-    return True
-  else:
-    return False
+#step2) printing lcs
+  #print(i)
+  #print(j)
+  lcs = ''
+
+  while (i > 0 and j > 0):
+    
+    if X[i-1] == Y[j-1] :
+      lcs += X[i-1]
+      i-=1
+      j-=1
+    else:
+      if t[i][j-1] > t[i-1][j]:
+        j-=1
+      else:
+        i-=1
 
 
-
-if __name__ == '__main__':
+#step3) reverse the seq output
+  lcs = lcs[::-1]
+  print("LCS is {}".format(lcs))
+  
  
-  res = LCS(X,Y,m,n)
-
-  if res:
-    print("Sequence Pattern Matched")
-
+  # MAIN LOGIC
+  
+  if(t[m][n] == len(X)):
+    print("YES")
   else:
-    print("Sequence Pattern Not Matched")
+    print("NO")
+
+  print("LCS is {}".format(t[m][n]))
+
+
+  
+
+ 
+LCS(X,Y,len(X),len(Y))
+
+
+
+
+
+for x in t:
+  print(x)
 
