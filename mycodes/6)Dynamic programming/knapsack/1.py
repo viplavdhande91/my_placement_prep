@@ -1,7 +1,7 @@
 #subset sum problem by top down DP approach
 
-arr = [2,3,7,8,10]
-sum1 = 11
+arr = [6 , 3 ,2 ,1]
+sum1 = 5
 n = len(arr)
 
 rows = n+1
@@ -25,16 +25,17 @@ def ss(arr,sum1,n):
 
 #filling each cell value
   for i in range(1,rows):
-    for j in range(1,cols):
+    for s in range(1,cols):
 
-      if j >= arr[i-1]:
-        t[i][j] = t[i-1][j-arr[i-1]] or t[i-1][j]
+      if s >= arr[i-1]:
+        t[i][s] = t[i-1][s-arr[i-1]] or t[i-1][s]
 
-      elif j < arr[i-1]:
-        t[i][j]=t[i-1][j]
+      elif s < arr[i-1]:
+        t[i][s]=t[i-1][s]
 
 
-  print(t)
+  for x in t:
+    print(x)
 
 
 

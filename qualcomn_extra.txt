@@ -1,0 +1,103 @@
+
+
+
+written exam
+
+apti round  20 questions 30 mins
+C programing  20 questions  30mins
+Computer Science 20 questions  30mins
+
+
+ 
+1)pipe and cisterns  || 15 Question DONE RS AGRAWAL || PGNO 386 || ✔✔
+2)Averages  || 15 Question DONE RS AGRAWAL || PGNO 145 || ✔✔
+3)profit and loss || 25 Question solved checked DONE RS AGRAWAL &&       || PGNO 259 || ✔✔
+
+
+
+4)percentages
+5)Time speed and distance
+6)Ratio and propoortion
+7)seating arrangement(Linear and Circular) done
+8)permutations and combinations
+9)Number System
+11)Equations
+12)Data Interpretation done  || Time management tricks
+13)venn diagram 
+14)Ages
+
+
+
+
+
+
+
+Time complexity comparison of different search algorithms
+
+
+Difference between single linked list and double linked list (in-depth analysis)
+
+Heapsort along with their analysis(time complexities)
+
+Segmentation, Paging, Demand Paging and Swapping.
+
+
+
+Virtual Memory
+
+
+
+3) Explain Memory leak
+
+finding errors in c programs
+
+
+
+
+
+Question:everything about  ENDian or Big ENDian.
+
+Question:Priority inversion  and techniques to avoid it.
+
+
+
+
+Question:Phases of the compiler. What is MakeFile? Explain and show how to make one?
+
+
+Qualcomn puzzles
+https://www.ritambhara.in/3-basket-puzzle-appleorange-puzzle/
+
+
+CO = >cache
+
+
+https://www.geeksforgeeks.org/check-integer-overflow-multiplication/
+
+
+
+
+
+puzzle?
+If we have three boxes each with two balls which can be either black or white are named wrong. 
+Their name is such that it signifies the first letter of each ball’s color, which the box contained. 
+For example a box containing a white and a black ball should have name: bb. But unfortunately all boxes are named wrongly. 
+Find the minimum number of ball to be extracted to find out correct name of each box.
+ Condition: each ball that is taken out should be replaced to the same box.
+ 
+
+
+
+
+7 am exercise 
+
+#9to1
+
+#4to9
+
+
+
+
+
+
+

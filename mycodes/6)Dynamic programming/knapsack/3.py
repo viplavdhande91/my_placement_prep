@@ -1,7 +1,7 @@
 # count subset sum
 
-arr = [1,5,11,5]
-sum1 = 11
+arr = [2,3,5,6,8,10]
+sum1 = 10
 n = len(arr)
 
 rows = n+1
@@ -40,8 +40,8 @@ def ss(arr,sum1,n):
         t[i][j]=t[i-1][j]
 
 
-  print(t)
-
+  for x in t:
+    print(x)
 
 
   return t[n][sum1] 
