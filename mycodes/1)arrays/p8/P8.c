@@ -90,5 +90,5 @@ https://www.youtube.com/watch?v=xF3TU-QlhJQ
 
 
 Time complexity =O(n)
-Space Complexity = O(m+n)
+Space Complexity = O(m+n) //due to res array
 */

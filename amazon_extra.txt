@@ -1,6 +1,4 @@
-https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
 
-https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
 
 
 https://www.geeksforgeeks.org/deepest-left-leaf-node-in-a-binary-tree/
@@ -31,18 +29,20 @@ https://www.geeksforgeeks.org/unique-triplets-sum-given-value/
 
 https://www.geeksforgeeks.org/partition-given-string-manner-ith-substring-sum-1th-2th-substring/
 
+https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
 
 https://www.geeksforgeeks.org/maximum-difference-between-node-and-its-ancestor-in-binary-tree/
 
+https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+
+find the duplicate in string array.
+
+Code to traverse a binary tree in Spiral form.
 
 
+Online Assessment Test: The round had four sections.
 
-17 amazon ques
-
-7day techdose remain ques
-
-bit manipulation 9 ques
-
-
-
-#Behavioural ques
+Debugging: 
+Coding Section: 70min
+Behavioral Analysis: 
+Reasoning Ability: aptitude and verbal ability. 

@@ -1,4 +1,7 @@
-
+https://www.geeksforgeeks.org/memory-layout-of-c-program/
+https://www.geeksforgeeks.org/introduction-of-compiler-design/
+https://www.geeksforgeeks.org/doubly-linked-list/
+https://www.csestack.org/what-is-difference-between-microprocessor-and-microcontroller/
 
 
 written exam
@@ -9,15 +12,14 @@ Computer Science 20 questions  30mins
 
 
  
-1)pipe and cisterns  || 15 Question DONE RS AGRAWAL || PGNO 386 || ✔✔
+1)pipe and cisterns  || 15 Question DONE RS AGRAWAL || PGNO 386 || ✔✔         
 2)Averages  || 15 Question DONE RS AGRAWAL || PGNO 145 || ✔✔
-3)profit and loss || 25 Question solved checked DONE RS AGRAWAL &&       || PGNO 259 || ✔✔
+3)profit and loss       RS AGRAWAL(PGNO 261 ) = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
+4)percentages|| 22 Question already solved checked by RS AGRAWAL && SOLVED 15QUES      || PGNO 218|| ✔✔
 
 
-
-4)percentages
-5)Time speed and distance
-6)Ratio and propoortion
+5)Time speed and distance    ==> RS AGRAWAL = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
+6)Ratio and propoortion          ===>   RS AGRAWAL = ✔✔ ||SHRIDHAR = ✔✔ ||  INDIABIX = ✔✔
 7)seating arrangement(Linear and Circular) done
 8)permutations and combinations
 9)Number System
@@ -31,34 +33,27 @@ Computer Science 20 questions  30mins
 
 
 
+#QUESTIONS
 
 Time complexity comparison of different search algorithms
-
 
 Difference between single linked list and double linked list (in-depth analysis)
 
 Heapsort along with their analysis(time complexities)
 
 Segmentation, Paging, Demand Paging and Swapping.
-
-
-
 Virtual Memory
+3)Explain Memory leak
 
 
-
-3) Explain Memory leak
-
-finding errors in c programs
-
-
-
-
-
+finding errors in c program
 Question:everything about  ENDian or Big ENDian.
 
-Question:Priority inversion  and techniques to avoid it.
+THrashing and solutions to remove it?
 
+
+Question:Priority inversion  and techniques to avoid it.
+solution:priority inheritance
 
 
 
@@ -89,11 +84,8 @@ Find the minimum number of ball to be extracted to find out correct name of each
 
 
 
-7 am exercise 
 
-#9to1
 
-#4to9
 
 
 
