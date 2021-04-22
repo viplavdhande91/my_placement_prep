@@ -1,45 +1,56 @@
-# Optimized method to find equilibrium index of an list
-
-def equilibriumIndex(A):
-
-    totalsum = sum(A)
-    print(totalsum)
-
-    # leftsum stores sum of elements of sub-list A[0],..,A[i-1]
-    leftsum = 0
-
-    indices = []
-
-    # traverse list from left to right
-    for i in range(len(A)):
-
-       
-        # sum of elements of right sub-list A[i+1.....n-1] is rightsum = (total - (A[i] + leftsum))
-        if leftsum == totalsum - (A[i] + leftsum):
-            indices.append(i)
-
-        # new leftsum = (A[0] + A[1] + ...A[i-1])+ A[i]
-        leftsum = leftsum + A[i]
-
-    print("Equilibrium Index found at", indices)
+# Python program to remvoe duplicate characters from an input string 
+NO_OF_CHARS = 256
 
 
+def removeDups(string): 
+    bin_hash = [0] * NO_OF_CHARS
+
+    strtolist = list(string)
+    
+    print("Orignal String to lists")
+    print(strtolist)
+    print('\n')
+
+    for x in range(len(strtolist)):
+        temp = strtolist[x];
+
+        if bin_hash[ord(temp)] == 0:
+            bin_hash[ord(temp)] = 1
+        else:
+            strtolist[x] = "#"
+
+    print("Inserted # at the place of repeated values")
+    print(strtolist)
+    print("\n")
 
 
-# Program to find the equilibrium index of an list
+    str1 = ''
 
-A = [0, -3, 5, -4, -2, 3, 1, 0]
+    for x in range(len(strtolist)):
+        if strtolist[x] != '#':
+            str1 += strtolist[x]
 
-equilibriumIndex(A)
+
+    print("String after removing duplicates:")
+   
+    print(str1)
 
 
+
+
+# Driver program to test the above functions 
+string = "suunnk"
+removeDups(string)
 
 
 '''
-https://www.techiedelight.com/find-equilibrium-index-array/
 
+Time Complexity: O(n) + O(n) === O(n)
 
-Time Complexity == O(n)
-Space C == O(1)
+Space Complexity: O(1)
+
+METHOD 4 (Use Hashing )
+
+https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string/
 
 '''

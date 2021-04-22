@@ -1,0 +1,26 @@
+Reverse a doubly linked list in groups of given size
+
+
+
+step1)run single O(n) loop and  find count of no of nodes
+
+step2)declare arr[count]
+
+step3)sort k-sized-block of arrays using while loop logic of reversal
+
+step4)run single O(n) loop and insert all array element into Linked List
+	
+	
+	
+   
+   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

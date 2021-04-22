@@ -1,46 +1,39 @@
-
-import java.util.Arrays;
-
-class demo
-{
-   public static void segreegate(int arr[])
-   {
-            int countzero = 0;
-            int n = arr.length;
-        //counting no of zeros
-            for (int i=0; i<n; i++){
-                if(arr[i]==0)
-                {
-                    countzero+=1;
-                }
-            }
-
-        //fill up 0s
-            for(int i =0;i<countzero;i++){
-                arr[i]=0;
-            }
+import java.util.*;
+import java.lang.*;
+//Given a list of non negative integers, arrange them such that they form the largest number.
 
 
-        //fill up 1s    //countzero = 4
-            for(int i = countzero ; i<n; i++){
-                   arr[i]=1;
-               }
-       
-   }
-   
+/* 
+outer loop's i is static and inner loop j runs from i+1 to end
+
+
+https://www.youtube.com/watch?v=qEIGhVtZ-sg&ab_channel=TECHDOSE
 
 
 
-    public static void main(String[] args)
+NOTE:
+
+on swapping if we are getting better increased number then only we have to swap;
+
+*/
+
+
+class demo{
+
+
+public static void main(String Args[])
     {
-        int arr[] = { 0,1,0,1,1,1,1,0,1,0 };
-        segreegate(arr);
-        System.out.println("Segregated array items:"+Arrays.toString(arr));
+
+      char c = 'a';
+
+      System.out.printf("%d",c);
+
+  
     }
 }
 
-/*
 
-time Complexity = O(n)
-space complexity= O(d)
- */
+
+
+
+

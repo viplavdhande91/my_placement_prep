@@ -1,7 +1,7 @@
 // sort the array of 0,1,2
 #include <stdio.h>
 
-
+//same as p6
 
 
 
@@ -52,6 +52,7 @@ printf("zero_count : %d\n",zero_count );
 
 printf("one_count : %d\n",one_count );
 printf("two_count : %d\n",two_count );
+
 
 for (int i = 0; i < zero_count; i++)
 {

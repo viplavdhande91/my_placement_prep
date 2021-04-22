@@ -1,0 +1,26 @@
+Add two numbers represented by linked lists 
+
+
+https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
+
+
+step1)convert M[] to integer n1 (ARRAY TO INTEGER)
+
+
+
+step2)convert N[] to integer n2 (ARRAY TO INTEGER)
+
+
+step3)int var = n1+n2
+
+step4)for each digit of var:
+           rem = var%10;  //last digit
+
+           insert(rem)    //our insert function
+
+     In the end we will get Linked List => 0->9->3
+
+step5)reverse the Linked List
+
+
+

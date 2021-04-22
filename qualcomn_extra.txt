@@ -12,14 +12,19 @@ Computer Science 20 questions  30mins
 
 
  
-1)pipe and cisterns  || 15 Question DONE RS AGRAWAL || PGNO 386 || ✔✔         
-2)Averages  || 15 Question DONE RS AGRAWAL || PGNO 145 || ✔✔
-3)profit and loss       RS AGRAWAL(PGNO 261 ) = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
-4)percentages|| 22 Question already solved checked by RS AGRAWAL && SOLVED 15QUES      || PGNO 218|| ✔✔
 
 
-5)Time speed and distance    ==> RS AGRAWAL = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
+3)profit and loss        RS AGRAWAL(PGNO 261 ) = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
+5)Time speed and distance       ==>     RS AGRAWAL = ✔✔ ||RBR = ✔✔ ||  INDIABIX = ✔✔
 6)Ratio and propoortion          ===>   RS AGRAWAL = ✔✔ ||SHRIDHAR = ✔✔ ||  INDIABIX = ✔✔
+
+
+1)pipe and cisterns      RS AGRAWAL = ✔✔ ||SHRIDHAR/RBR =  ||  INDIABIX =        
+2)Averages  ||           RS AGRAWAL = ✔✔ ||SHRIDHAR/RBR =  ||  INDIABIX =
+4)percentages||          RS AGRAWAL = ✔✔ ||SHRIDHAR/RBR =  ||  INDIABIX =
+
+
+
 7)seating arrangement(Linear and Circular) done
 8)permutations and combinations
 9)Number System

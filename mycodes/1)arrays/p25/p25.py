@@ -1,6 +1,7 @@
 #Sliding Window Maximum (Maximum of all subarrays of size k)
+
 def slide_window_max(arr,k):
-    loopvar = (len(arr) - k)+1 #for n size array contiguous windows is n-2 sized.
+    loopvar = len(arr) - k+1 
     
     i = 0
     j = 1
@@ -26,11 +27,10 @@ def slide_window_max(arr,k):
 
 
 
-if __name__ == '__main__':
-    arr = [8, 5, 10, 7, 9, 4, 15, 12, 90, 13]
-    k = 4
+arr = [8, 5, 10, 7, 9, 4, 15, 12, 90, 13]
+k = 4
 
-    slide_window_max(arr,k)
+slide_window_max(arr,k)
 
 
 '''
